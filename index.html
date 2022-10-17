@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator by Mubarak Jubril</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input">
+        <input type="text" id="input" value="" />
+      </div>
+      <br />
+      <div class="buttons">
+        <div class="blue" onclick="clearInput()">C</div>
+        <div class="blue" onclick="del()">Del</div>
+        <div class="blue" onclick="display('%')">%</div>
+        <div class="blue" onclick='display("/")'>&divide;</div>
+      </div>
+      <br />
+      <div class="buttons">
+        <div onclick="display(7)">7</div>
+        <div onclick="display(8)">8</div>
+        <div onclick="display(9)">9</div>
+        <div class="blue" onclick='display("*")'>&times;</div>
+      </div>
+      <br />
+      <div class="buttons">
+        <div onclick="display(4)">4</div>
+        <div onclick="display(5)">5</div>
+        <div onclick="display(6)">6</div>
+        <div class="blue" onclick='display("-")'>&minus;</div>
+      </div>
+      <br />
+      <div class="buttons">
+        <div onclick="display(1)">1</div>
+        <div onclick="display(2)">2</div>
+        <div onclick="display(3)">3</div>
+        <div class="blue" onclick='display("&plus;")'>&plus;</div>
+      </div>
+      <br />
+      <div class="buttons">
+        <div onclick="display(0)">0</div>
+        <div onclick='display(".")'>.</div>
+        <div onclick="display('&ExponentialE;')"">&ExponentialE;</div>
+        <div class="blue" onclick="equalTo()">&equals;</div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
